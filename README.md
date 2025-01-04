@@ -15,3 +15,17 @@ Features
     Frontend: HTML, CSS (Bootstrap)
     Database: SQLite (default Django database, can be changed to PostgreSQL or MySQL)
     Styling: Bootstrap 5 for responsive and modern UI
+
+
+
+<h1>Folder Structure </h1
+django-quiz-app/
+├── quiz_app/         # Main Django application
+│   ├── templates/    # HTML templates for the application
+│   ├── static/       # Static files (CSS, JS)
+│   └── views.py      # View logic for handling requests
+├── project/          # Django project configuration
+├── db.sqlite3        # SQLite database (default)
+├── manage.py         # Django management script
+└── requirements.txt  # Python dependencies
+
